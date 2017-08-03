@@ -13,6 +13,7 @@ function sizeOfCity(cities) {
     } else {
       result = `${nameOfCity} is a small city with a population of ${populationOfCity} people.`;
     };
+    console.log(result);
   };
   return;
 }
