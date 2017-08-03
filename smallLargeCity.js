@@ -7,6 +7,7 @@ function sizeOfCity(cities) {
   let result = '';
   for (let city in cities) {
     nameOfCity = city[0].toUpperCase() + city.substr(1);
+    populationOfCity = cities[city];
   };
   return;
 }
