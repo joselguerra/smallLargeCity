@@ -8,6 +8,11 @@ function sizeOfCity(cities) {
   for (let city in cities) {
     nameOfCity = city[0].toUpperCase() + city.substr(1);
     populationOfCity = cities[city];
+    if (populationOfCity > 150000) {
+      result = `${nameOfCity} is a large city with a population of ${populationOfCity} people.`;
+    } else {
+      result = `${nameOfCity} is a small city with a population of ${populationOfCity} people.`;
+    };
   };
   return;
 }
