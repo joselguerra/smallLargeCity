@@ -5,6 +5,8 @@ function sizeOfCity(cities) {
   let nameOfCity = '';
   let populationOfCity = 0;
   let result = '';
-  
+  for (let city in cities) {
+
+  };
   return;
 }
