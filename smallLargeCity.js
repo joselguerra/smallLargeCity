@@ -16,4 +16,6 @@ function sizeOfCity(cities) {
     console.log(result);
   };
   return;
-}
+};
+
+sizeOfCity(whatCities);
